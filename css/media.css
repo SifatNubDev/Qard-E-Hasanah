@@ -1,0 +1,2326 @@
+/*=================================================== 
+====================   Xlarge ================================================*/
+
+
+@media(min-width: 992px) and (max-width: 1179.99px) {
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+        display: block;
+        padding: 15px;
+        text-align: left;
+        gap: 10px;
+        background: #fff;
+        z-index: 9999;
+        height: 700px;
+        top: 15%;
+        left: 60%;
+        z-index: 999;
+        box-shadow: 0 0 15px rgba(235, 235, 235, 0.712);
+    }
+    .flask {
+        width: 37px;
+        height: 37px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 16%;
+        right: 2%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;
+    }
+    .project-left {
+        padding: 20px;
+    }
+
+
+    /*================================ Navbar ==============================*/
+
+    .navleft .icon a {
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 15px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+        border-radius: 8px;
+       }
+    .menu li a {
+        width: 42px;
+        height: 42px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    .notification {
+        width: 17px;
+        height: 17px;
+        top: -7px;
+        left: 30px;
+    }
+    .notification p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo {
+        padding-right: 7px;
+    }
+    .logo img {
+        width: 190px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+    .topselect {
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .select-item {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .selectcontent {
+        width: 55%;
+    }
+    .project-main {
+        display: block;
+    }
+    #amount {
+        padding: 18px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 0;
+    }
+    .button {
+        padding: 17px 30px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+    .info {
+        width: 52px;
+        height: 52px;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+
+
+    /*================================ post profile ==============================*/
+
+    .post-main {
+        width: 100%;
+        padding: 15px 15px 15px 0;
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .post-left {
+        width: 100%;
+        padding-top: 25px;
+        margin-right: 40px;
+    }
+    .post-content video {
+        width: 102%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        display: flex;
+        justify-content: space-between;
+    }
+    .progress-end-point {
+        left: 97%;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .identity {
+        display: flex;
+        padding-left: 30px;
+        padding-top: 22px;
+    }
+    .badge {
+        padding: 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .badge p {
+        font-size: 15px;
+        padding-top: 1px;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 18px;
+    }
+    .dotline {
+        display: flex;
+    }
+    .post-right {
+        padding-top: 15px;
+        width: 100%;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .fund-icons {
+        padding-top: 0;
+    }
+    .icon-item1 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item2 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item3 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #Eamount {
+        padding: 15px 15px;
+    }
+    .support-btn {
+        padding-top: 15px;
+    }
+    .support-btn .button {
+        padding: 15px 40px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 47px;
+        height: 47px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+    }
+    .card-item {
+        width: 450px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        height: 260px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        justify-content: space-around;
+    }
+    .img-overlay {
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 175px;
+        padding-left: 7px;
+    }
+    .overlay-text h3 {
+        font-size: 20px;
+    }
+    .overlay-text p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .group-main a {
+        font-size: 18px;
+    }
+    .group-action a {
+        font-size: 16px;
+    }
+    .group-action a i {
+        font-size: 15px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 22px;
+    }
+    .location {
+        margin: 22px;
+    }
+    .group-action {
+        padding: 20px 30px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        padding: 12px;
+        margin: 13px;
+    }
+    .locationV p {
+        font-size: 14px;
+    }
+    .days {
+        margin: 13px;
+    }
+    .days p {
+        font-size: 14px;
+    }
+}
+
+
+
+/*=================================================== 
+====================   large ================================================*/
+
+
+@media(min-width: 769px) and (max-width: 991.99px) {
+
+
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+        display: block;
+        padding: 15px;
+        text-align: left;
+        gap: 10px;
+        background: #fff;
+        z-index: 9999;
+        height: 700px;
+        top: 15%;
+        left: 60%;
+        z-index: 999;
+        box-shadow: 0 0 15px rgba(235, 235, 235, 0.712);
+    }
+    .flask {
+        width: 37px;
+        height: 37px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 16%;
+        right: 2.5%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;
+    }
+    .project-left {
+        padding: 20px;
+    }
+
+
+    /*================================ Navbar ==============================*/
+
+    .navleft .icon a {
+        width: 37px;
+        height: 37px;
+        font-size: 14px;
+        border-radius: 7px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 15px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+        border-radius: 8px;
+       }
+    .menu li a {
+        width: 37px;
+        height: 37px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    .notification {
+        width: 16px;
+        height: 16px;
+        top: -6px;
+        left: 26px;
+    }
+    .notification p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo {
+        padding-right: 7px;
+    }
+    .logo img {
+        width: 190px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+    .topselect {
+        margin-top: 40px;
+    }
+    .select-item {
+        display: block;
+        padding-top: 20px;
+    }
+    .project-main {
+        display: block;
+    }
+    .topselect {
+        padding: 20px;
+        text-align: center;
+    }
+    #amount {
+        padding: 18px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 25px;
+    }
+    .button {
+        padding: 15px 40px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .info {
+        width: 49px;
+        height: 49px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+
+    /*================================ post profile ==============================*/
+
+
+    .post-main {
+        width: 100%;
+        padding: 15px 15px 15px 0;
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .post-left {
+        width: 100%;
+        padding-top: 25px;
+        margin-right: 35px;
+    }
+    .post-content video {
+        width: 102%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        justify-content: space-between;
+    }
+    .progress-end-point {
+        left: 97%;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 15px 22px;
+    }
+    .identity {
+        display: flex;
+        padding-left: 30px;
+        padding-top: 22px;
+    }
+    .badge {
+        padding: 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .badge p {
+        font-size: 15px;
+        padding-top: 1px;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    .dotline {
+        display: flex;
+    }
+    .post-right {
+        padding: 0;
+        width: 100%;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .fund-icons {
+        padding-top: 0;
+    }
+    .icon-item1 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item2 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item3 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #Eamount {
+        padding: 15px 15px;
+    }
+    .support-btn {
+        padding-top: 15px;
+    }
+    .support-btn .button {
+        padding: 15px 23px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 47px;
+        height: 47px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .group-head {
+        padding-top: 10px;
+    }
+    .heading h2 {
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    .group-cards {
+        padding-top: 25px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .group-left {
+        margin-right: 0;
+    }
+    .card-item {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        height: 223px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .img-overlay {
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 140px;
+        padding-left: 7px;
+    }
+    .group-main a {
+        font-size: 18px;
+    }
+    .group-action a {
+        font-size: 14px;
+    }
+    .group-action a i {
+        font-size: 13px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 22px;
+    }
+    .location {
+        margin: 22px;
+    }
+    .group-action {
+        padding: 20px 30px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        padding: 12px;
+        margin: 13px;
+    }
+    .locationV p {
+        font-size: 14px;
+    }
+    .days {
+        margin: 13px;
+    }
+    .days p {
+        font-size: 14px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .group-slider .prev_arrow {
+        bottom: -6px;
+        left: 23%;
+    }
+    .group-slider .next_arrow {
+        bottom: -6px;
+        right: 23%;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*=================================================== 
+====================   medium ================================================*/
+
+
+
+
+
+@media(min-width: 616px) and (max-width:768.99px) {
+
+
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+        display: block;
+        padding: 15px;
+        text-align: left;
+        gap: 10px;
+        background: #fff;
+        z-index: 9999;
+        height: 700px;
+        top: 17%;
+        left: 45%;
+        z-index: 999;
+        box-shadow: 0 0 15px rgb(235, 235, 235);
+    }
+    .flask {
+        width: 33px;
+        height: 33px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 16%;
+        right: 3.5%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;
+    }
+    .project-left {
+        padding: 20px;
+    }
+
+
+    /*================================ Navbar ==============================*/
+
+    .navleft .icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        border: 1px solid #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: #777;
+        transition: all linear .3s;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu {
+        display:none;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        padding: 12px 15px;
+        text-align: right;
+        gap: 6px;
+        box-shadow: 0 0 20px 0 rgb(228, 228, 228);
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       }
+       .hamburger {
+        display: block;
+        font-size: 22px;
+        margin-right: 0px;
+        color: #54AA4F;
+    }
+    .menu li a {
+        width: 42px;
+        height: 42px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .notification {
+        width: 18px;
+        height: 18px;
+        top: -8px;
+        left: 30px;
+    }
+    .notification p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo img {
+        width: 170px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+    .topselect {
+        margin-top: 40px;
+    }
+    .select-item {
+        display: block;
+        padding-top: 20px;
+    }
+    .project-main {
+        display: block;
+    }
+    .topselect {
+        padding: 20px;
+        text-align: center;
+    }
+    #amount {
+        padding: 18px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    .button {
+        padding: 15px 40px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .info {
+        width: 49px;
+        height: 49px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+
+    /*================================ post profile ==============================*/
+
+
+    .post-main {
+        width: 100%;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .post-content video {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        justify-content: space-evenly;
+    }
+    .progress-end-point {
+        left: 97%;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .badge {
+        padding: 15px;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .badge p {
+        font-size: 17px;
+        padding-top: 0px;
+    }
+    .identity {
+        display: flex;
+        padding-left: 0;
+        padding-top: 22px;
+        justify-content: center;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    .dotline {
+        display: flex;
+        justify-content: center;
+    }
+    .post-right {
+        padding: 0;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .fund-icons {
+        padding-top: 5px;
+    }
+    .icon-item1 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item2 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item3 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #Eamount {
+        padding: 15px 15px;
+    }
+    .support-btn {
+        padding-top: 15px;
+    }
+    .support-btn .button {
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 50px;
+        height: 50px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .group-head {
+        padding-top: 10px;
+    }
+    .heading h2 {
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    .group-cards {
+        padding-top: 25px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .group-left {
+        margin-right: 15px;
+    }
+    .card-item {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        height: 200px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .img-overlay {
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 125px;
+        padding-left: 7px;
+    }
+    .group-main a {
+        font-size: 18px;
+    }
+    .group-action a {
+        font-size: 14px;
+    }
+    .group-action a i {
+        font-size: 13px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 22px;
+    }
+    .location {
+        margin: 22px;
+    }
+    .group-action {
+        padding: 20px 30px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        padding: 12px;
+        margin: 30px;
+    }
+    .locationV p {
+        font-size: 16px;
+    }
+    .days {
+        margin: 30px;
+    }
+    .days p {
+        font-size: 16px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .group-slider .prev_arrow {
+        bottom: -6px;
+        left: 23%;
+    }
+    .group-slider .next_arrow {
+        bottom: -6px;
+        right: 23%;
+    }
+
+}
+
+
+
+
+/*=================================================== 
+====================   small ================================================*/
+
+
+@media(min-width: 576px) and (max-width:615.99px) {
+
+
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+	display: block;
+	padding: 15px;
+	text-align: left;
+	gap: 10px;
+	background: #fff;
+	z-index: 9999;
+	height: 700px;
+	top: 16%;
+	left: 37%;
+	z-index: 999;
+	box-shadow: 0 0 15px rgb(235, 235, 235);
+    }
+    .flask {
+        width: 33px;
+        height: 33px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 27%;
+        right: 3.5%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;
+    }
+
+    /*================================ Navbar ==============================*/
+
+    .navleft .icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        border: 1px solid #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: #777;
+        transition: all linear .3s;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu {
+        display:none;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        padding: 12px 15px;
+        text-align: right;
+        gap: 6px;
+        box-shadow: 0 0 20px 0 rgb(228, 228, 228);
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       }
+       .hamburger {
+        display: block;
+        font-size: 22px;
+        margin-right: 0px;
+        color: #54AA4F;
+    }
+    .menu li a {
+        width: 37px;
+        height: 37px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .notification {
+        width: 16px;
+        height: 16px;
+        top: -6px;
+        left: 27px;
+    }
+    .notification p {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        line-height: 15px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo img {
+        width: 170px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+
+    .select-item {
+        display: block;
+        padding-top: 20px;
+    }
+    .project-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .topselect {
+        padding: 20px;
+        text-align: center;
+    }
+    #amount {
+        padding: 18px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .button {
+        padding: 15px 30px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .info {
+        width: 49px;
+        height: 49px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+
+    /*================================ post profile ==============================*/
+
+
+    .post-main {
+        width: 100%;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .post-content video {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        display: flex;
+        padding-left: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 15px 40px;
+    }
+    .badge {
+        padding: 15px;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .identity {
+        display: flex;
+        padding-left: 0;
+        padding-top: 22px;
+        justify-content: center;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    .dotline {
+        display: flex;
+        justify-content: center;
+    }
+    .post-right {
+        padding: 0;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .fund-icons {
+        padding-top: 5px;
+    }
+    .icon-item1 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item2 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .icon-item3 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #Eamount {
+        padding: 15px 15px;
+    }
+    .support-btn {
+        padding-top: 15px;
+    }
+    .support-btn .button {
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 50px;
+        height: 50px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .group-head {
+        padding-top: 10px;
+    }
+    .heading h2 {
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    .group-cards {
+        padding-top: 25px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .card-item {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        height: 270px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .img-overlay {
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 190px;
+        padding-left: 10px;
+    }
+    .group-main a {
+        font-size: 18px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 22px;
+    }
+    .location {
+        margin: 22px;
+    }
+    .group-action {
+        padding: 20px 30px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        margin: 20px;
+    }
+    .locationV p {
+        font-size: 16px;
+    }
+    .days {
+        margin: 20px;
+    }
+    .days p {
+        font-size: 16px;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-slider .prev_arrow {
+        bottom: -6px;
+        left: 23%;
+    }
+    .group-slider .next_arrow {
+        bottom: -6px;
+        right: 23%;
+    }
+
+}
+
+
+
+/*=================================================== 
+====================   small ================================================*/
+
+
+
+@media(min-width: 421px) and (max-width:575.99px){
+    
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #fff;
+        z-index: 9999;
+        height: 700px;
+        top: 14%;
+        left: 11%;
+        z-index: 999;
+        box-shadow: 0 0 15px rgb(235, 235, 235);
+    }
+    .flask {
+        width: 33px;
+        height: 33px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 27%;
+        right: 3.5%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;
+    }
+
+    /*================================ Navbar ==============================*/
+
+    .navleft .icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        border: 1px solid #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: #777;
+        transition: all linear .3s;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu {
+        display:none;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        padding: 12px 15px;
+        text-align: right;
+        gap: 6px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       }
+       .hamburger {
+        display: block;
+        font-size: 22px;
+        margin-right: 0px;
+        color: #54AA4F;
+    }
+    .menu li a {
+        width: 37px;
+        height: 37px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .notification {
+        width: 16px;
+        height: 16px;
+        top: -6px;
+        left: 27px;
+    }
+    .notification p {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        line-height: 15px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo img {
+        width: 170px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+
+    .select-item {
+        display: block;
+        padding-top: 20px;
+    }
+    .project-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .topselect {
+        padding: 20px;
+        text-align: center;
+    }
+    #amount {
+        padding: 15px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .button {
+        padding: 13px 30px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .info {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+
+    /*================================ post profile ==============================*/
+
+
+    .post-main {
+        width: 100%;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .post-content video {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 15px 25px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 15px 25px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 15px 25px;
+    }
+    .badge {
+        padding: 15px;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .identity {
+        display: flex;
+        padding-left: 0;
+        padding-top: 22px;
+        justify-content: center;
+    }
+    #Eamount {
+        padding: 15px 15px;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    .dotline {
+        display: flex;
+        justify-content: center;
+    }
+    .post-right {
+        padding: 0;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 16px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .fund-icons {
+        padding-top: 5px;
+    }
+    .icon-item1 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .icon-item2 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .icon-item3 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .support-btn {
+        padding-top: 15px;
+    }
+    .support-btn .button {
+        padding: 15px 25px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 48px;
+        height: 48px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .group-cards {
+        padding-top: 25px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .card-item {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .img-overlay {
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 150px;
+    }
+    .heading h2 {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    .group-main a {
+        font-size: 15px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 15px;
+    }
+    .location {
+        margin: 15px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        margin: 20px;
+    }
+    .days {
+        margin: 20px;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-slider .prev_arrow {
+        bottom: -6px;
+        left: 23%;
+    }
+    .group-slider .next_arrow {
+        bottom: -6px;
+        right: 23%;
+    }
+}
+
+
+/*=================================================== 
+====================   Xsmall ================================================*/
+
+
+
+@media(max-width:420.99px) {
+    .Filters {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+    }
+    .project-left {
+        padding: 25px;
+    }
+    #filter-toggle[type="checkbox"]:checked ~ .Filters {
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #fff;
+        z-index: 9999;
+        height: 700px;
+        top: 14%;
+        left: 10%;
+        z-index: 999;
+        box-shadow: 0 0 15px rgb(235, 235, 235);
+    }
+    .flask {
+        width: 30px;
+        height: 30px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+        top: 17%;
+        right: 5.5%;
+        box-shadow: 0 0 15px rgba(28, 230, 28, 0.763);
+    }
+    .flask i {
+        color: #fff;font-size: 12px;
+    }
+
+
+    /*================================ Navbar ==============================*/
+
+
+    .navleft .icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        border: 1px solid #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: #777;
+        transition: all linear .3s;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu {
+        display:none;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        padding: 12px 15px;
+        text-align: right;
+        gap: 6px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       }
+       .hamburger {
+        display: block;
+        font-size: 22px;
+        margin-right: 0px;
+        color: #54AA4F;
+    }
+       .menu li a{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 12px;
+        }
+    .notification {
+        width: 15px;
+        height: 15px;
+        top: -8px;
+        left: 20px;
+    }
+    .notification p {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        line-height: 15px;
+    }
+    .icon{
+        padding-top: 5px;
+    }
+    .navleft{
+        gap: 0px;
+    }
+    .menu-main {
+        padding: 16px;
+    }
+    .logo img {
+        width: 170px;
+    }
+
+    /*================================ Donate amount ==============================*/
+
+
+    .select-item {
+        display: block;
+        padding-top: 20px;
+    }
+    .project-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .topselect {
+        padding: 20px;
+        text-align: center;
+    }
+    #amount {
+        padding: 10px;
+        width: 100%;
+    }
+    .select-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .button {
+        padding: 10px 12px;
+        font-size: 13px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+    .info {
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+
+    /*================================ post profile ==============================*/
+
+
+    .post-main {
+        width: 100%;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .post-content video {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    .video-info {
+        top: 10px;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .days {
+        margin-right: 10px;
+    }
+    .days p {
+        font-size: 12px;
+    }
+    .post-tags {
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .btn1 {
+        margin: 0;
+        padding: 10px 15px;
+    }
+    .btn2 {
+        margin: 0;
+        padding: 10px 15px;
+    }
+    .btn3 {
+        margin: 0;
+        padding: 10px 15px;
+    }
+    .badge {
+        padding: 15px;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .identity {
+        display: flex;
+        padding-left: 0;
+        padding-top: 22px;
+        justify-content: center;
+    }
+    .post-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+    .heading h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    .dotline {
+        display: flex;
+        justify-content: center;
+    }
+    .post-right {
+        padding: 0;
+    }
+    .profile-right-text {
+        padding-bottom: 0;
+    }
+    .post-text p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .amount {
+        text-align: left;
+    }
+    .amount h3 {
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    .amount p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .fund-icons {
+        padding-top: 0;
+    }
+    .icon-item1 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .icon-item2 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .icon-item3 {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .support-btn .button {
+        padding: 12px 15px;
+        font-size: 12px;
+        margin: 0;
+    }
+    .support-btn .info {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .info i {
+        font-size: 14px;
+    }
+    
+    
+    /*================================ Group part ==============================*/
+
+    .group-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .group-cards {
+        padding-top: 25px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .card-item {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-img img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .img-overlay {
+	height: 99.5%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding: 20px;
+    }
+    .overlay-text {
+        padding-top: 150px;
+    }
+    .heading h2 {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    .group-main a {
+        font-size: 15px;
+    }
+    .group-info {
+        top: 0;
+        left: 0;
+    }
+    .members {
+        margin: 15px;
+    }
+    .location {
+        margin: 15px;
+    }
+
+    .video-info {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .locationV {
+        margin: 10px;
+    }
+    .days {
+        margin: 10px;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-slider .prev_arrow {
+        bottom: -6px;
+        left: 23%;
+    }
+    .group-slider .next_arrow {
+        bottom: -6px;
+        right: 23%;
+    }
+}
+
+
+
